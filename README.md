@@ -25,9 +25,9 @@ Kubernetes The Hard Way guides you through bootstrapping a highly available Kube
 
 This tutorial assumes you have access to the [Google Cloud Platform](https://cloud.google.com). While GCP is used for basic infrastructure requirements the lessons learned in this tutorial can be applied to other platforms.
 
-* 01-Prerequisites
+* ~~01-Prerequisites~~
 * [02-Installing the Client Tools](docs/02-client-tools.md)
-* [03-Provisioning Compute Resources](docs/03-compute-resources.md)
+* ~~03-Provisioning Compute Resources~~
 * [04-Provisioning the CA and Generating TLS Certificates](docs/04-certificate-authority.md)
 * [05-Generating Kubernetes Configuration Files for Authentication](docs/05-kubernetes-configuration-files.md)
 * [06-Generating the Data Encryption Config and Key](docs/06-data-encryption-keys.md)
