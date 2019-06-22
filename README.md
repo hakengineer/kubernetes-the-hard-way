@@ -34,8 +34,8 @@ This tutorial assumes you have access to the [Google Cloud Platform](https://clo
 * [07-Bootstrapping the etcd Cluster](docs/07-bootstrapping-etcd.md)
 * [08-Bootstrapping the Kubernetes Control Plane](docs/08-bootstrapping-kubernetes-controllers.md)
 * [09-Bootstrapping the Kubernetes Worker Nodes](docs/09-bootstrapping-kubernetes-workers.md)
-* [10-Configuring kubectl for Remote Access](docs/10-configuring-kubectl.md)
+* ~~[10-Configuring kubectl for Remote Access]~~
 * [11-Provisioning Pod Network Routes](docs/11-pod-network-routes.md)
 * [12-Deploying the DNS Cluster Add-on](docs/12-dns-addon.md)
 * [13-Smoke Test](docs/13-smoke-test.md)
-* [14-Cleaning Up](docs/14-cleanup.md)
+* ~~[14-Cleaning Up]~~
