@@ -57,6 +57,8 @@ Install the worker binaries:
 Create the `kubelet-config.yaml` configuration file:
 
 ```
+POD_CIDR=10.200.0.0/16
+  
 cat <<EOF | sudo tee /var/lib/kubelet/kubelet-config.yaml
 kind: KubeletConfiguration
 apiVersion: kubelet.config.k8s.io/v1beta1
