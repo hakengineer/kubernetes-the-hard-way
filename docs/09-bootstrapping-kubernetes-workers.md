@@ -178,4 +178,4 @@ worker-1   Ready    <none>   36s   v1.12.0
 worker-2   Ready    <none>   36s   v1.12.0
 ```
 
-Next: [Configuring kubectl for Remote Access](10-configuring-kubectl.md)
+Next: [Provisioning Pod Network Routes](11-pod-network-routes.md)
