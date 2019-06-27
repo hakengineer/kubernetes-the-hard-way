@@ -424,7 +424,7 @@ Copy the appropriate certificates and private keys to each controller instance:
 
 ```
 for instance in master1; do
-  gcloud compute scp ca.pem ca-key.pem kubernetes-key.pem kubernetes.pem \
+  scp ca.pem ca-key.pem kubernetes-key.pem kubernetes.pem \
     service-account-key.pem service-account.pem ${instance}:~/
 done
 ```
