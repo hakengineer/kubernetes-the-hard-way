@@ -1,5 +1,5 @@
 # Kubernetes The Hard Way
-
+https://hakengineer.xyz/2019/06/28/post-1932/
 
 
 
