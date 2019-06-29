@@ -181,10 +181,14 @@ done
 Results:
 
 ```
-worker1-key.pem
+worker1-csr.json
 worker1.pem
-worker2-key.pem
+worker1.csr
+worker1-key.pem
+worker2-csr.json
 worker2.pem
+worker2.csr
+worker2-key.pem
 ```
 
 ### The Controller Manager Client Certificate
