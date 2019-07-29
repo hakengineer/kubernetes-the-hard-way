@@ -48,9 +48,9 @@ Install the worker binaries:
 
 ```
 {
-  sudo mv ${HOSTNAME}-key.pem ${HOSTNAME}.pem /var/lib/kubelet/
-  sudo mv ${HOSTNAME}.kubeconfig /var/lib/kubelet/kubeconfig
-  sudo mv ca.pem /var/lib/kubernetes/
+  sudo cp ${HOSTNAME}-key.pem ${HOSTNAME}.pem /var/lib/kubelet/
+  sudo cp ${HOSTNAME}.kubeconfig /var/lib/kubelet/kubeconfig
+  sudo cp ca.pem /var/lib/kubernetes/
 }
 ```
 
@@ -111,7 +111,7 @@ EOF
 ### Configure the Kubernetes Proxy
 
 ```
-sudo mv kube-proxy.kubeconfig /var/lib/kube-proxy/kubeconfig
+sudo cp kube-proxy.kubeconfig /var/lib/kube-proxy/kubeconfig
 ```
 
 Create the `kube-proxy-config.yaml` configuration file:
