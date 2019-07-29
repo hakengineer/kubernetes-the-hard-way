@@ -32,12 +32,5 @@ resources:
 EOF
 ```
 
-Copy the `encryption-config.yaml` encryption config file to each controller instance:
-
-```
-for instance in master1; do
-  scp encryption-config.yaml ${instance}:~/
-done
-```
 
 Next: [Bootstrapping the etcd Cluster](07-bootstrapping-etcd.md)
