@@ -186,24 +186,4 @@ admin.kubeconfig
 ```
 
 
-## 
-
-## Distribute the Kubernetes Configuration Files
-
-Copy the appropriate `kubelet` and `kube-proxy` kubeconfig files to each worker instance:
-
-```
-for instance in worker1 worker2; do
-  scp ${instance}.kubeconfig kube-proxy.kubeconfig ${instance}:~/
-done
-```
-
-Copy the appropriate `kube-controller-manager` and `kube-scheduler` kubeconfig files to each controller instance:
-
-```
-for instance in master1; do
-  scp admin.kubeconfig kube-controller-manager.kubeconfig kube-scheduler.kubeconfig ${instance}:~/
-done
-```
-
 Next: [Generating the Data Encryption Config and Key](06-data-encryption-keys.md)
