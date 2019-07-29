@@ -414,25 +414,6 @@ service-account.pem
 ```
 
 
-## Distribute the Client and Server Certificates
-
-Copy the appropriate certificates and private keys to each worker instance:
-
-```
-for instance in worker1 worker2; do
-  scp ca.pem ${instance}-key.pem ${instance}.pem ${instance}:~/
-done
-```
-
-Copy the appropriate certificates and private keys to each controller instance:
-
-```
-for instance in master1; do
-  scp ca.pem ca-key.pem kubernetes-key.pem kubernetes.pem \
-    service-account-key.pem service-account.pem ${instance}:~/
-done
-```
-
 > The `kube-proxy`, `kube-controller-manager`, `kube-scheduler`, and `kubelet` client certificates will be used to generate client authentication configuration files in the next lab.
 
 Next: [Generating Kubernetes Configuration Files for Authentication](05-kubernetes-configuration-files.md)
