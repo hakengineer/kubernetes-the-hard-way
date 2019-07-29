@@ -4,6 +4,13 @@ In this lab you will bootstrap three Kubernetes worker nodes. The following comp
 
 ## Prerequisites
 
+scp from master1 to worker
+
+```
+scp -ri ~/.ssh/id_rsa-XXXX /home/ubuntu/hardway ubuntu@10.63.0.101:/home/ubuntu/hardway
+scp -ri ~/.ssh/id_rsa-XXXX /home/ubuntu/hardway ubuntu@10.63.0.102:/home/ubuntu/hardway
+```
+
 The commands in this lab must be run on each worker instance: `worker1`, `worker2`. Login to each worker instance using the `ssh` command. Example:
 
 ```
